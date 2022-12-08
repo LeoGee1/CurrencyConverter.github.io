@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency_Converter</title>
+    <link rel="stylesheet" href="converter.css">
+</head>
+<body>
+   <section class="section">
+        <main class="main" id="main">
+            <header>
+                <nav class="Pcontact flex"><h3 class="contact">Contact</h3>
+                </nav>
+                <div class="Pcurrency">
+                    <h2 class="currency"><span class="cur">Currency</span> Converter</h2>
+                </div>
+            </header>
+            <form class="form flex">
+                <div class="flex Pfrom">
+                    <label for="countryFrom" class="from">From</label>
+                    <select name="countryFrom" id="countryFrom" class="fromSelect select">
+                        
+                    </select>
+                </div>
+
+                <div class="flex Pto">
+                    <label for="countryTo" class="to">To</label>
+                    <select name="countryTo
+                    " id="countryTo" class="toSelect select">
+                    </select>
+                </div>
+            </form>
+            <div class="Pamount flex">
+                <input type="text" class="amount" id="amount" placeholder="Amount">
+            </div>
+            <div class="Pbutton">
+                <button class="button" id="button">
+                    <h3>Convert</h3>
+                    <div class="animate">
+                        <div class="arc one"></div>
+                        <div class="arc two"></div>
+                    </div>
+                </button>
+            </div>
+            <footer>
+                <div class="Pnumber">
+                    <div class="result">Result</div>
+                     <div class="number"></div>
+                </div>
+            </footer>
+        </main>
+   </section>
+   <script src="currency-list.js"></script>
+   <script src="converter.js"></script>
+</body>
+</html>
